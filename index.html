@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cash Register</title>
+        <meta name="description" content="Operaciones con decimales en JavaScript - Algoritmos y estructura de datos. Maneja operaciones con decimales de manera eficiente en tu máquina registradora">
+        <meta name="keywords" content="máquina registradora, operaciones con decimales, JavaScript, algoritmos, estructura de datos">
+        <link rel="shortcut icon" href="./images/ico-JS-35x35.png" type="image/png">
+        <link rel="stylesheet" type="text/css" href="./css/styles.css">        
+    </head>
+    <body>
+        <header class="machine-head">
+            <h1 class="title-name">The Jewel Show</h1>
+            <section class="explication">
+                <p>Try to empty the money from the returns box. Add the change coins to the price in $ to achieve it,
+                    little by little or
+                    all at once, if you dare, brave friend of jewels...</p>
+                <p>But be careful, there might be a surprise. And if you go overboard, you lose!</p>
+                <!-- ESPAÑOL <p>Intenta vaciar el dinero de la caja para devoluciones. Suma las monedas de cambio en $ al precio para lograrlo, poco a poco o de una vez, si te atreves, valiente amigo de las joyas...</p>
+            <p>Pero ten cuidado, quizás haya sorpresa. Y si te pasas pierdes!</p> -->
+                <!-- <p>Delight yourself with these wonderful jewels, choose one and check if your wallet has the funds to buy it.</p>
+            <p>This machine performs complete purchase operations, returning the perfect change in differents coins and bills, as long as sufficient funds are available.</p> -->
+            </section>
+        </header>
+        <main class="main">
+            <section class="main-machine">
+                <article class="codec-js">
+                    <ul id="cashFunds"></ul>
+                    <aside>
+                        <div class="aside__left">
+                            <label for="input-wallet"></label>
+                            <input id="input-wallet" class="cash-wallet" type="number" readonly="true"
+                                placeholder="Offer $">
+                            <button id="magic-button">Get Jewel</button>
+                        </div>
+                        <div class="aside__right" id="box-jewel">
+                            <p class="name-jewel">Name Jewel</p>
+                            <label for="input-jewel"></label>
+                            <input id="input-jewel" class="price-jewel" readonly type="number" placeholder="$ Price">
+                        </div>
+                    </aside>
+                    <ul id="returns"></ul>
+                </article>
+                <figure class="container-image">
+                    <img class="image-machine" alt="Image of cash register machine with gems." src="./images/768-cashRegister-7-ref.avif">
+                </figure>
+            </section>
+        </main>
+        <footer class="footer">
+            <a href="../../index.html" class="links">JavaScript's Projects</a>
+            <a href="https://conancos.dev/portfolio" class="links">Portfolio v1.02</a>
+        </footer>
+        <script src="./scripts/devolutions.js"></script>
+        <script src="./scripts/jewels.js"></script>
+        <script src="./scripts/motion.js"></script>
+        <script src="./scripts/proyecto-5.js"></script>
+        <script src="./scripts/canvas-confetti.js"></script>
+        <script src="./scripts/rewards.js"></script>
+    </body>
+</html>

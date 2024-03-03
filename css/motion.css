@@ -1,0 +1,280 @@
+@keyframes motion {
+
+    /*.code-js Agragada dinámicamente*/
+    0% {
+        transform: translateY(50%);
+        opacity: 0
+    }
+
+    50% {
+        transform: translateY(0)
+    }
+
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes motion2 {
+
+    /*aside - Se activa */
+    0% {
+        transform: translateY(-80%);
+        opacity: 0
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 1;
+        filter: saturate(100%) hue-rotate(5turn) brightness(100%)
+    }
+}
+
+/* background: radial-gradient(#28ea, #00fd); */
+/* box-shadow: 0 0 10px 2px #05f, 0 0 50px #05f, 0 0 100px 0px #05f; */
+
+.Benitoite {
+    opacity: 1 !important;
+    background: radial-gradient(#44fa 25%, #235d) !important;
+    box-shadow: 0 0 10px 2px #0af, 0 0 50px #0af, 0 0 100px 0px #0af !important;
+    filter: hue-rotate(-10.00turn);
+    transition: filter 7s !important;
+}
+
+.Grandidierite {
+    opacity: 1 !important;
+    background: radial-gradient(#0eb5 15%, #056 85%) !important;
+    box-shadow: 0 0 10px 2px #3db, 0 0 50px #3db, 0 0 100px 0px #3db !important;
+    filter: hue-rotate(-5.0turn) !important;
+    transition: filter 10s !important;
+}
+
+/*  background: radial-gradient(#f00, #f5ea );
+    box-shadow: 0 0 10px 0 #f00, 0 0 50px #f154ff, 0 0 100px #f00; */
+.Diamond {
+    opacity: 1 !important;
+    background: radial-gradient(#0ffa, #00f7 95%) !important;
+    box-shadow: 0 0 10px #6af, 0 0 50px #6af, 0 0 100px #6af !important;
+    filter: hue-rotate(-15turn) !important;
+    transition: filter 4s !important;
+}
+
+.Serendibite {
+    opacity: 1 !important;
+    background: radial-gradient(circle, #0cfa 15%, #128d 75%) !important;
+    box-shadow: 0 0 10px #0bf, 0 0 50px #0bf, 0 0 100px #0bf !important;
+    filter: hue-rotate(8.0turn) !important;
+    transition: filter 6s !important;
+}
+
+.Alexandrite {
+    /*#f17c*/
+    opacity: 1 !important;
+    background: radial-gradient(#c6ad 15%, #502c 85%) !important;
+    box-shadow: 0 0 10px 5px #d5b, 0 0 50px #d5b, 0 0 100px 25px #d5b, inset 0 0 10px 3px #707e !important;
+    filter: hue-rotate(-4.36turn) brightness(100%) !important;
+    transition: filter 6s !important;
+}
+
+.Ruby {
+    opacity: 1 !important;
+    background: radial-gradient(circle, #0f50ffee, #0505facc) !important;
+    box-shadow: 0 0 20px 0px #05f, 0 0 50px #03f, 0 0 100px 20px #00f !important;
+    filter: hue-rotate(-8.60turn) invert(5%) saturate(115%) !important;
+    transition: filter 4s !important;
+
+}
+
+.Emerald {
+    opacity: 1 !important;
+    background: radial-gradient(circle, #03fa, #0afd) !important;
+    box-shadow: 0 0 20px #0af, 0 0 50px #0af, 0 0 100px 25px #0af !important;
+    filter: hue-rotate(7.77turn) brightness(120%) !important;
+    transition: filter 6s !important;
+}
+
+.Tanzanite {
+    opacity: 1 !important;
+    background: radial-gradient(#055c, #00fb) !important;
+    box-shadow: 0 0 10px 2px #05f, 0 0 50px #05f, 0 0 100px 0px #05f !important;
+    filter: hue-rotate(-5.95turn) brightness(120%) contrast(130%) !important;
+    transition: filter 5s !important;
+
+}
+
+.Shappire {
+    opacity: 1 !important;
+    background: radial-gradient(#28ea, #00fb) !important;
+    box-shadow: 0 0 10px 2px #05f, 0 0 50px #05f, 0 0 100px 30px #05f !important;
+    filter: hue-rotate(6.15turn) brightness(120%) contrast(130%) !important;
+    transition: filter 8s !important;
+}
+
+.flash {
+    /*h1 destello*/
+    animation: flash 1s linear;
+    animation-delay: 6s;
+    animation-iteration-count: 1;
+    /* -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+@keyframes flash {
+    0% {
+        background: linear-gradient(177deg, var(--gold5)35%, var(--gold0)47% 53%, var(--gold5)65%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    6.25% {
+        background: linear-gradient(168.75deg, var(--gold5)35%, var(--gold0)47% 53%, var(--gold5)65%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    12.5% {
+        background: linear-gradient(157.5deg, var(--gold5)35%, var(--gold0)47% 53%, var(--gold5)65%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    18.75% {
+        background: linear-gradient(146.25deg, var(--gold5)35%, var(--gold0)47% 53%, var(--gold5)65%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    25% {
+        background: linear-gradient(135deg, var(--gold5)35%, var(--gold0)47% 53%, var(--gold5)65%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    31.25% {
+        background: linear-gradient(124.75deg, var(--gold5)35%, var(--gold0)47% 53%, var(--gold5)65%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    37.5% {
+        background: linear-gradient(113.5deg, var(--gold5)35%, var(--gold0)47% 53%, var(--gold5)65%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    43.75% {
+        background: linear-gradient(102.25deg, var(--gold5)40%, var(--gold0)47% 53%, var(--gold5)60%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    50% {
+        background: linear-gradient(91deg, var(--gold5)45%, var(--gold0)47% 53%, var(--gold5)55%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    56.25% {
+        background: linear-gradient(80.75deg, var(--gold5)40%, var(--gold0)47% 53%, var(--gold5)60%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    62.5% {
+        background: linear-gradient(69.5deg, var(--gold5)35%, var(--gold0)47% 53%, var(--gold5)65%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    68.75% {
+        background: linear-gradient(58.25deg, var(--gold5)35%, var(--gold0)47% 53%, var(--gold5)65%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    75% {
+        background: linear-gradient(47deg, var(--gold5)35%, var(--gold0)47% 53%, var(--gold5)65%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    81.25% {
+        background: linear-gradient(36.75deg, var(--gold5)35%, var(--gold0)47% 53%, var(--gold5)65%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    87.5% {
+        background: linear-gradient(25.5deg, var(--gold5)35%, var(--gold0)47% 53%, var(--gold5)65%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    93.75% {
+        background: linear-gradient(14.25deg, var(--gold5)35%, var(--gold0)47% 53%, var(--gold5)65%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    100% {
+        background: linear-gradient(3deg, var(--gold5)35%, var(--gold0)47% 53%, var(--gold5)65%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+
+@keyframes machine-shine {
+    0% {
+        box-shadow: 0 0 48px var(--gold1), var(--inset)
+    }
+
+    /* 50% {box-shadow: 0 0 50px var(--gold1), var(--inset)} */
+    100% {
+        box-shadow: 0 0 49px var(--gold1), var(--inset)
+    }
+}
+
+@keyframes jewel-shine {
+    0% {
+        box-shadow: 0 0 75px 12px var(--gold1), var(--inset)
+    }
+
+    /* 50% {box-shadow: 0 0 50px var(--gold1), var(--inset)} */
+    100% {
+        box-shadow: 0 0 65px 10px var(--gold1), var(--inset)
+    }
+}
+
+.dissable {
+    animation: dissable_main-machine 1s backwards;
+}
+@keyframes dissable_main-machine {
+    0% {filter: brightness(100%)}
+    75% {filter: brightness(0%); scale: 0}
+    100% {display: none !important}
+}
+@keyframes active_premioFigure {
+    from {filter: opacity(0)}
+}

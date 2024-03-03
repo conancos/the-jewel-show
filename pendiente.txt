@@ -1,0 +1,37 @@
+🟨- VIEW TRANSITIONS en YouTube para enlazar las imágenes de Proyectos JavaScript, con las imágenes de las propios proyectos individuales en sus propias páginas web.
+
+🟨-He de mejorar las animaciones de scroll, reduciendo el translateY y ajustando la opacidad.
+    de 0 a 1, con translateY(20% o 30%), transition: .4s, y quizás el scale de .8 a 1
+
+🟨-Quizá mejorar el responsive de los h1: 
+    box-sizing: border-box;
+    min-height: 100%;
+    -webkit-text-fill-color: transparent; // (#0000)
+    font-size: clamp(2rem, 10vw, 8rem);
+    background: linear-gradient(92deg, #red 10%, purple 60%, violet)
+    
+    
+
+🟨- DIALOG y SUMMARY:
+    Para las ventanas modales Y
+    para los menús contextuales.
+
+🟨 cashRegister // index.html 
+        🟨 Cambiar el texto de INSTRUCCIONES
+        🟨 CONSIDERAR QUITAR ANIMACIONES:
+            🟨 EL BRILLO DEL h1,
+            🟨 EL BRILLO DE CONTAINER IMAGE.
+
+✅ Escoger cada joya con su imagen y cambiarle el nombre en la carpeta local images.
+
+
+🟦 RESPONSIVE
+    🟦 clearTimeout(id); // En pantallas móvil, para parar los setTimeout()
+    🟦 clearInterval
+    🟪 Comprobar las transitions en un video de YouTube
+
+
+🟥 RENDIMIENTO {
+    Convertir todos los setTimeout de motion.js por @keyframes de CSS.
+    Preguntar o mirar por ahí si es + conveniente llamar al conffeti web
+}

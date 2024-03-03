@@ -1,0 +1,31 @@
+# A fer la mar toda la carpeta
+images/**
+
+# - Rótulo Principal
+!images/readme-img-jew.png
+
+# - Expo de las recompensas en joyas disponible
+!images/toGitHub-100px/Shappire-100.jpg
+!images/toGitHub-100px/Tanzanite-100.jpg
+!images/toGitHub-100px/Emerald-100.jpg
+!images/toGitHub-100px/Ruby-100.jpg
+!images/toGitHub-100px/Alexandrite-100.jpg
+!images/toGitHub-100px/Serendibite-100.jpg
+!images/toGitHub-100px/Diamond-100.jpg
+!images/toGitHub-100px/Grandidierite-100.jpg
+!images/toGitHub-100px/Benitoite-100.jpg
+!images/toGitHub-100px/Unknown-100.jpg
+
+# - Woman's Secret IA modelss
+!images/toGitHub-100px/masterpiece-royal-gem-1.png
+!images/toGitHub-100px/masterpiece-royal-gem-2.png
+!images/toGitHub-100px/masterpiece-royal-gem-3.png
+!images/toGitHub-100px/masterpiece-royal-gem-4.png
+!images/toGitHub-100px/masterpiece-royal-gem-5.png
+!images/toGitHub-100px/masterpiece-royal-gem-6.png
+
+# - Logo
+!images/logo-conancos.png
+
+# - Img XL para README.md
+!images/sophisticated-machine-that-dispenses-jewels.jpg
