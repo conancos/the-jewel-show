@@ -123,7 +123,7 @@ _**JavaScript code to handle correct purchases and returns on a real, physical p
 
 <br />
 
-<img alt="dispensing jewels" src="./images/768-CashRegister-7.jpg" />
+<img alt="dispensing jewels" src="./images/768-cashRegister-7.jpg" />
 
 <p></p>
 
