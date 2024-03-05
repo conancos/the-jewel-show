@@ -1,6 +1,10 @@
 # A fer la mar toda la carpeta
 images/**
 
+# Agregar las canciones, que aunque sean libre de derechos, dediqué varias horas a buscarlas y clasifcarlas.
+# Quien quiera o necesite música libre de derechos puede encontrar en pixabay.
+sounds/**
+
 # - Rótulo Principal
 !images/readme-img-jew.png
 
