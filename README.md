@@ -22,6 +22,8 @@ _**JavaScript code to handle correct purchases and returns on a real, physical p
 <img alt="woman jeweled" src="./images/masterpiece-royal-gem-2.jpg" width="300px">
 <img alt="woman jeweled" src="./images/masterpiece-royal-gem-6.jpg" width="300px">
 
+©
+
 </div>
 
 --------
